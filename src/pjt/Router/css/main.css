@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    overflow-y: hidden;
+}
+
+.outer {
+    height: 100vh;
+    overflow-y: auto;
+}
+.main01_title {
+    color: #00539c;
+    font-weight: bold;
+    text-align: center;
+}
+.how {
+    margin-bottom: 150px;
+}
+/* 화면에서 스크롤바 안보이게 */
+.outer::-webkit-scrollbar {
+    display: none;
+}
+
+.inner {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+.bg-yellow {
+    height: 94vh;
+    background-color: #ffffff;
+}
+
+.bg-blue {
+    height: 101vh;
+    background-color: #9ac5f4;
+}
+
+.bg-blue > div {
+    display: inline-block;
+}
+.bg-blue > div:nth-child(1) {
+    color: #fcf6f5;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.bg-blue > div:nth-child(2) {
+    text-align: right;
+    margin-left: 40px;
+    margin-right: 15px;
+}
+
+.bg-blue > div:nth-child(3) {
+    text-align: left;
+}
+
+div.first_img img {
+    margin: 0px 20px 20px 0px;
+    width: 230px;
+    height: 230px;
+    border-radius: 20px;
+}
+
+div.second_img img {
+    margin: 0px 20px 20px 0px;
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+}
+
+div.third_img img {
+    margin: 0px 20px 20px 0px;
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+}
+
+div.fourth_img img {
+    margin: 0px 20px 20px 0px;
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+}
+
+div.fifth_img img {
+    margin: 0px 20px 20px 0px;
+    width: 140px;
+    height: 140px;
+    border-radius: 20px;
+}
+
+.bg-pink {
+    height: 95vh;
+    background-color: #ffeebb;
+}
+
+.bg-pink > div {
+    display: inline-block;
+}
+.bg-pink > div:nth-child(1) {
+    text-align: right;
+    margin-left: 40px;
+    margin-right: 15px;
+}
+.bg-pink > div:nth-child(2) {
+    text-align: left;
+}
+.bg-pink > div:nth-child(3) {
+    color: #00539c;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 100px;
+}
+div.bg-yellow > h2 {
+    color: #243665;
+}
+div.bg-blue > h2 {
+    color: #fcf6f5;
+}
+div.bg-pink > h2 {
+    color: #00539c;
+}
+button.nextPage:hover {
+    background-color: #0056b3;
+}
+
+button.nextPage {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #3085d6;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+div.scene > div > div:nth-child(1) > a:hover,
+div.scene > div > div:nth-child(2) > a:hover,
+div.scene > div > div:nth-child(3) > a:hover,
+div.scene > div > div:nth-child(4) > a:hover,
+div.scene > div > div:nth-child(5) > a:hover,
+div.scene > div > div:nth-child(6) > a:hover,
+div.scene > div > div:nth-child(7) > a:hover,
+div.scene > div > div:nth-child(8) > a:hover,
+div.scene > div > div:nth-child(9) > a:hover,
+div.scene > div > div:nth-child(10) > a:hover {
+    text-decoration: none;
+}

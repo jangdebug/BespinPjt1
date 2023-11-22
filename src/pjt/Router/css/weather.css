@@ -1,0 +1,64 @@
+.weather-container {
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.weather-current-value {
+    display: flex;
+    justify-content: center;
+}
+/* .weather-current-head {
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+} */
+.weather-current-value-temp {
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.weather-current-value-description {
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.weather-current-head > span:nth-child(1) {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.weather-current-value-icon,
+.weather-forecast-value-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.white {
+    fill: #efefed;
+}
+
+.charcoal {
+    fill: #3b3c40;
+}
+
+table {
+    margin: 10px auto 0;
+}
+
+table > thead > tr > th {
+    padding: 5px 15px;
+    font-size: 1.1em;
+}
+
+table > tbody > tr > td {
+    padding: 5px 13px;
+    font-size: 1em;
+}

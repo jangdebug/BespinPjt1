@@ -1,0 +1,23 @@
+.subfooter-content {
+    width: 1000px;
+    height: 11vh;
+    margin: 10px auto 0px;
+}
+.subfooter-company-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subfooter_menu > a {
+    color: #00539c;
+    padding-left: 20px;
+    font-size: 0.9em;
+    text-align: center;
+    /* height: 12vh; */
+    line-height: 11vh;
+}
+.swal-footer {
+    width: 1200px;
+    padding: 30px;
+    font-size: 0.7em;
+}

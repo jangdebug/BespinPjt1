@@ -1,0 +1,12 @@
+.subpage {
+    height: 100vh;
+    overflow-y: scroll;
+}
+.sub-wrap {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.sub-wrap > div {
+    margin: 0px 60px;
+}
